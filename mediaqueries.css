@@ -1,0 +1,332 @@
+/* @media (max-width:600px) {
+    #nav{
+        /* height: 20vw;
+        margin-top: 2vmax;
+        padding: 4px 19px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 19px;
+        /* height: 120px; 
+        width: 100%;
+        position: fixed;
+        top: 0vh;
+        overflow: hidden;
+        z-index: 99;
+    }
+
+    #logo{
+        margin-left: 0vmax;
+        width: 10vw;
+    }
+
+    #nav #logo a{
+        font-size: 7vw;
+        line-height: 7vw;
+        color: #fff;
+        /* width: 10vw; 
+    }
+
+    #nav svg{
+        height: 13.1vw;
+        margin-left: 10.1vw;
+        border-radius: 50%;
+    }
+
+     #nav .resume-btn{
+        display: none;
+    }
+/*
+    #nav .resume-phn{
+        display: inline;
+        /* margin-left: -10vh; 
+     
+    
+    .resume-phn {
+        padding: .9vmax 1.6vmax;
+        margin-left: -0vw;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .resume-phn a {
+        font-size: 2.2vmax;
+        /* background-color: red; 
+        font-family: gilroy;
+        font-weight: 600;
+    }
+*/
+
+@media (max-width:600px) {
+
+    #nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2px 10px;
+        /* height: 120px; */
+        width: 100%;
+        position: fixed;
+        top: 0vh;
+        overflow: hidden;
+        z-index: 999;
+        margin-top: -10px;
+    }
+
+    #nav #logo >a {
+        font-size: 6.4vw;
+        color: #fff;
+        line-height: 7vw;
+        text-decoration: none;
+        width: 10vw;
+    }
+
+    #nav .resume-btn {
+        display: none;
+    }
+
+
+    #nav h5 {
+        font-size: 1.3vw;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-right: 1vw;
+        letter-spacing: 1px;
+        font-family: gilroy;
+    }
+
+    #nav svg {
+        height: 14.1vw;
+        cursor: pointer;
+        border-radius: 50%;
+        margin-left: 7.1vw;
+        
+    }
+
+    #nav .resume-btn-prt {
+        padding: .9vmax 1.9vmax;
+        margin-left: -11vw;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-right: -10px;
+        
+    }
+
+    #nav .resume-btn-prt a {
+        font-size: 2.5vmax;
+        /* background-color: red; */
+        font-family: gilroy;
+        font-weight: 600;
+    }
+
+
+/*-----------------PAGE-1 RESPONSIVE CODE----------*/
+    #page1{
+    min-height: 67vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    z-index: 99;
+    background-color: black;
+    }
+
+    #page1 h1{
+        font-size: 5.6vmax;
+        margin-bottom: 4.5vmax;
+        /* margin-left: 8vmax; */
+    }
+
+    #page1 #img-div{
+        width: 65vmin;
+        height: 75vw;
+        overflow: hidden;
+        margin-bottom: 2.5vw;
+    }
+
+    /*-----------------PAGE-3 RESPONSIVE CODE----------*/
+    #page3{
+        width: 100%;
+        min-height: 67vh;
+        background-color: black;
+        position: relative;
+        padding: 5vh 5.1vw;
+        background-color: #111; 
+    }
+    #page3 h1 {
+        font-size: 4.4vmax;
+        font-family: gilroy;
+        font-weight: 800;
+        margin-bottom: 0vmax;
+    }
+
+    #page3 h3{
+        font-size: 4.3vw;
+        font-family: gilroy;
+        margin-bottom: 1.2vmax;
+    }
+
+    .box h4{
+        font-size: 2.1vmax;
+        border: 2px solid white;
+        border-radius: 7px;
+        font-family: gilroy;
+        color: #fff;
+        font-weight: 500;
+        padding: 5px 10px;
+        margin-top: 4vmax;
+        margin-bottom: 2vmax;    
+    }
+
+    .box img{
+        height: 5vmax;
+        margin-right: 10px;
+        background-color: #fff;
+        padding: 5px;
+        position: relative;
+        border-radius: 8px;
+    }
+    
+    .dev-box img{
+        height: 6.1vmax;
+        margin-right: 0.6vmax;
+    }
+    
+    .dvv-box img{
+        /* background-color: red; */
+        height: 6.7vmax;
+        margin-right: 0.5vmax;
+    }
+
+    /*--------------------page4 responsive------------------*/
+    #page4{
+        min-height: 70vh;
+        width: 100%;
+        padding: 3vh 4.5vw;
+    }
+
+    #page4 h2{
+        font-size: 8.5vw;
+    }
+
+
+    #page4 h4{
+        font-size: 4.3vw;
+    }
+
+
+    #page4 #work-sample{
+        margin-top:2vh;
+        height: 70vh;
+    }
+
+    #page4 #work-sample img{
+        box-shadow: 1px 7px 20px solid rgb(0,0,0,0.4);
+        height: 11.5vmax;
+    }
+
+    #page4>a{
+        display: block;
+        text-align: right;
+        margin-bottom: 3vmax;
+        padding: 0 1vw;
+    }
+    
+    #page4>a img{
+        height: 6vmax;
+    }
+
+    
+        #page5{
+            min-height: 100vh;
+            width: 100%;
+            background-color: #222;
+            padding: 4.5vh 4.7vw;
+            position: relative;
+        }
+
+        #page5 h1{
+            font-size: 4vmax;
+            font-weight: 700;
+            font-family: gilroy;
+            margin-top: 0vmax;
+            margin-bottom: 5vmax;
+        }
+
+        #page5 h1 span{
+            font-family: gilroy;
+            color: #F6BA53;
+        }
+
+        #artworks a{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            position: relative;
+            height: 70px;
+            border-top: 2px solid #fff;
+            padding: 0 2px;
+            text-decoration: none;
+        }
+
+        #artworks a:nth-last-chile(1){
+            border-bottom:2px solid #fff;
+            margin-bottom: 5vmax;
+        }
+        
+        #artworks a h4{
+            font-size: 2.3vmax;
+            position: relative;
+            z-index: 99;
+            transition:color ease-in 0.4s;
+            width: 18%;
+        }
+
+        #artworks a h5{
+            font-size: 2vmax;
+            font-weight: 600;
+            font-family: gilroy;
+            width: 33%;
+            position: relative;
+            transition: color ease-in 0.4s;
+            z-index: 99;
+        }
+        
+        #artworks a h6{
+            font-size: 1.9vmax;
+            width: 29%;
+            text-align: right;
+            position: relative;
+            z-index: 99;
+            transition:color ease-in 0.4s;
+            font-family: gilroy;
+        }
+        
+        #sliding-div{
+            position: absolute;
+            left: 0;
+            top: 0;
+            /* height: 100%; */
+            z-index: 9;
+            width: 100%;
+            height: 0%;
+            transition: height cubic-bezier(0.19,1,0.22,1) 1.3s;
+            background-color: #fff;
+        }
+        
+        .page6>h1{
+            font-size: 8.4vmax;
+        }
+
+        footer{
+            font-size: 2vmax;
+            margin-top: 10vmax;
+        }
+    
+}
