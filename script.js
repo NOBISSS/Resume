@@ -29,111 +29,112 @@ ScrollTrigger.refresh();
 
 */
 
-gsap.to("#nav svg",{
-    rotate:90,
-    duration:1,
-    backgroundColor:"#111",
-    scrollTrigger:{
-        trigger:"#nav svg",
-        scroller:"body",
+gsap.to("#nav svg", {
+    rotate: 90,
+    duration: 1,
+    backgroundColor: "#111",
+    scrollTrigger: {
+        trigger: "#nav svg",
+        scroller: "body",
         // markers:true,
-        start:"top -5%",
-        end:"top -6%",
-        scrub:1,
+        
+        start: "top -5%",
+        end: "top -6%",
+        scrub: 1,
     }
 })
 
 
 
-gsap.to("#nav svg",{
-    backgroundColor:"#111",
-    scrollTrigger:{
-        trigger:"#nav svg",
-        scroller:"body",
+gsap.to("#nav svg", {
+    backgroundColor: "#111",
+    scrollTrigger: {
+        trigger: "#nav svg",
+        scroller: "body",
         // markers:true,
-        start:"top -5%",
-        end:"top -400%",
-        scrub:1,
+        start: "top -5%",
+        end: "top -400%",
+        scrub: 1,
     }
 })
 
-gsap.to("#page2 #name-div h1",{
-    transform:"translateX(calc(-100% - 2vw - 4px))",
-    scrollTrigger : {
-        trigger:"#page2 #name-div h1",
-        scroller:"body",
+gsap.to("#page2 #name-div h1", {
+    transform: "translateX(calc(-100% - 2vw - 4px))",
+    scrollTrigger: {
+        trigger: "#page2 #name-div h1",
+        scroller: "body",
         // markers:true,
-        scrub:1,      
+        scrub: 1,
     }
 })
 
-gsap.from("#intro-div h1:nth-child(1)",{
-    scrollTrigger:{
-        trigger:"#intro-div h1:nth-child(1)",
-        scroller:"body",
+gsap.from("#intro-div h1:nth-child(1)", {
+    scrollTrigger: {
+        trigger: "#intro-div h1:nth-child(1)",
+        scroller: "body",
         // markers:true,
-        start:"top 70%"
+        start: "top 70%"
     },
-    opacity:0
+    opacity: 0
 })
 
-gsap.from("#intro-div h1:nth-child(2)",{
-    scrollTrigger:{
-        trigger:"#intro-div h1:nth-child(2)",
-        scroller:"body",
+gsap.from("#intro-div h1:nth-child(2)", {
+    scrollTrigger: {
+        trigger: "#intro-div h1:nth-child(2)",
+        scroller: "body",
         // markers:true,
-        start:"top 60%"
+        start: "top 60%"
     },
-    duration:1,
-    opacity:0
+    duration: 1,
+    opacity: 0
 })
 
-gsap.from("#intro-div h1:nth-child(3)",{
-    scrollTrigger:{
-        trigger:"#intro-div h1:nth-child(3)",
-        scroller:"body",
+gsap.from("#intro-div h1:nth-child(3)", {
+    scrollTrigger: {
+        trigger: "#intro-div h1:nth-child(3)",
+        scroller: "body",
         // markers:true,
-        start:"top 60%"
+        start: "top 60%"
     },
-    duration:1,
-    opacity:0
+    duration: 1,
+    opacity: 0
 })
 
-gsap.from(".box h4",{
-    opacity:0,
-    
-    scrollTrigger:{
-        trigger:".box h4",
-        scroller:"body",  
-        start:"top 80%"
+gsap.from(".box h4", {
+    opacity: 0,
+
+    scrollTrigger: {
+        trigger: ".box h4",
+        scroller: "body",
+        start: "top 80%"
     },
-    stagger:0.5
+    stagger: 0.5
 })
 
-gsap.from(".dev-box img",{
-    opacity:0,
-    scrollTrigger :{
-        trigger:".dev-box img",
-        scroller:"body",
+gsap.from(".dev-box img", {
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".dev-box img",
+        scroller: "body",
         // markers:true,
-        start:"top 90%",
+        start: "top 90%",
     },
-    y:20,
-    stagger:{
-        amount:2.2
+    y: 20,
+    stagger: {
+        amount: 2.2
     },
 })
 
-gsap.from(".des-box img",{
-    opacity:0,
-    scrollTrigger:{
-        trigger:".des-box img",
-        scroller:"body",
-        start:"top 98%",
+gsap.from(".des-box img", {
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".des-box img",
+        scroller: "body",
+        start: "top 98%",
     },
-    y:20,
-    stagger:{
-        amount:1
+    y: 20,
+    stagger: {
+        amount: 1
     },
-    
+
 })
