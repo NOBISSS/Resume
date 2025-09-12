@@ -46,7 +46,7 @@ html,body{
 /*---------------------------- NAV CODE --------------------*/
 
 #nav{
-    height: 120px;
+    height: 95px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ html,body{
     width: 100%;
     position: fixed;
     overflow: hidden;
-    padding: 2px 22px;
+    padding: 5px 22px;
     margin-top: -0.2vw;
     background-color: #111111a0;
 }
@@ -65,7 +65,7 @@ html,body{
 }
 
 #logo a{
-    font-size: 2.3vw;
+    font-size: 2.2vw;
     text-decoration: none;
     color: white;
     cursor: default;
@@ -79,7 +79,7 @@ html,body{
 
 
 #nav svg{
-    height: 77px;
+    height: 86px;
     margin-left: 10px;
     border-radius: 50%;
 }
