@@ -62,26 +62,52 @@ html,body{
 #logo{
     width: 10vw;
     margin-left: 0vmax;
+    position: relative;
 }
 
-#logo a{
-    font-size: 2.2vw;
-    text-decoration: none;
-    color: white;
-    cursor: default;
-    margin-left: 10px;
-    width: 100%;
-    line-height: 2.4vw;
-    /* padding: 0 20px; */
-    font-family: gilroysb;
-    text-transform: uppercase;
+#logo div{
+    height: 200px;
+    width: 100px;
+    background-color: #ffff4d;
+    transform: translate(3px,3px);
+    position: absolute;
+}
+
+#logo img{
+    z-index: 1;
+    width: 70px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
 }
 
 
 #nav svg{
-    height: 86px;
+    height: 73px;
     margin-left: 10px;
     border-radius: 50%;
+}
+
+@media (max-width:867px) {
+ #logo div{
+    
+    height: 100px;
+    width: 100%;
+    
+    /* padding: 0 20px; */
+    background-color: #ffff4d;
+    
+}
+
+
+#logo img{
+    margin-top: 2vw;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    object-position: center;
+}   
 }
 
 
@@ -97,13 +123,18 @@ html,body{
     box-shadow: 0 0 0.8vmax #49bff6;
     border: none;
     padding: .9vmax 1.5vmax;
-    background: linear-gradient(to right, #45d6e7, #38cdfa);
+    /* background: linear-gradient(to right, #45d6e7, #38cdfa); */
+    background: linear-gradient(to right, #0cd0e6, #4dd4fd);
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 999;
     cursor: pointer;
     transition: 0.5s all;
+}
+
+#nav .resume-btn:hover{
+    background: none;
 }
 
 #nav .resume-btn a{
@@ -183,6 +214,10 @@ html,body{
         height: 109%;
         width: 100%;
 }
+
+
+/*RESPONSIVE CODE OF PAGE1*/
+
 
 /*------------------------   PAGE 2  -----------------------*/
 
@@ -392,7 +427,7 @@ html,body{
 }
 
 .dev-box img{
-    height: 6.5vmax;
+    height: 6vmax;
     margin-right: 0.8vmax;
 }
 
