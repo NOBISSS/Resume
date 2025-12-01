@@ -8,11 +8,10 @@
   <link rel="icon" type="img/png" href="./images/LOGO2.png">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4F9QXSSLN"></script>
-  <script>
+  <script defer>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-E4F9QXSSLN');
   </script>
   <link rel="stylesheet" href="style.css" />
@@ -23,7 +22,7 @@
 <body>
   <div id="nav">
     <div id="logo">
-      <img src="./images/LOGO2.png" />
+      <img onclick="location.href='#main'" src="./images/LOGO2.png" />
       <!-- <h1>PARTH</h1> -->
       <!-- <div></div> -->
     </div>
@@ -39,10 +38,12 @@
       </g>
     </svg>
     <button class="resume-btn">
-      <a href="./Portfolio/Parth's Resumee.pdf" target="_blank" download>Get My Resume Offline</a>
+      <!-- <a href="./Portfolio/Parth's Resumee.pdf" target="_blank" download>Get My Resume Offline</a> -->
+      <a href="./Resume.html" target="_blank">View Resume</a>
     </button>
     <button class="resume-btn-prt">
-      <a href="./Portfolio/Parth's Resumee.pdf" target="_blank" download>Get Resume</a>
+      <!-- <a href="./Portfolio/Parth's Resumee.pdf" target="_blank" download>Get Resume</a> -->
+      <a href="./Resume.html" target="_blank">View Resume</a>
     </button>
   </div>
   <div id="main">

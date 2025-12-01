@@ -1,3 +1,4 @@
+/* ----------- Responsive tweaks ----------- */
 
 @media (max-width:600px) {
 
@@ -270,4 +271,29 @@
             margin-top: 10vmax;
         }
     
+}
+
+
+
+@media (max-width: 768px) {
+  .Resume_Div {
+    margin-top: 80px;
+    padding: 16px 8px 32px;
+  }
+
+  .resume_container iframe {
+    height: 70vh;
+    max-width: 100%;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  #resume_title h1 {
+    font-size: 1.8rem;
+  }
+
+  .resume_container iframe {
+    height: 65vh;
+  }
 }

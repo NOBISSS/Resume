@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,7 +37,8 @@
     src: url(./Fonts/DancingScript-VariableFont_wght.ttf);
 }
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
@@ -45,7 +46,7 @@ html,body{
 
 /*---------------------------- NAV CODE --------------------*/
 
-#nav{
+#nav {
     height: 95px;
     z-index: 999;
     display: flex;
@@ -59,59 +60,60 @@ html,body{
     background-color: #111111a0;
 }
 
-#logo{
+#logo {
     width: 10vw;
     margin-left: 0vmax;
     position: relative;
+
 }
 
-#logo div{
+#logo div {
     height: 200px;
     width: 100px;
     background-color: #ffff4d;
-    transform: translate(3px,3px);
+    transform: translate(3px, 3px);
     position: absolute;
 }
 
-#logo img{
+#logo img {
     z-index: 1;
     width: 70px;
     height: 80px;
     object-fit: cover;
     object-position: center;
     border-radius: 50px;
+    cursor: pointer;
 }
 
-
-#nav svg{
+#nav svg {
     height: 73px;
     margin-left: 10px;
     border-radius: 50%;
 }
 
 @media (max-width:867px) {
- #logo div{
-    
-    height: 100px;
-    width: 100%;
-    
-    /* padding: 0 20px; */
-    background-color: #ffff4d;
-    
+    #logo div {
+
+        height: 100px;
+        width: 100%;
+
+        /* padding: 0 20px; */
+        background-color: #ffff4d;
+
+    }
+
+
+    #logo img {
+        margin-top: 2vw;
+        width: 70px;
+        height: 70px;
+        background-position: center;
+        object-position: center;
+    }
 }
 
 
-#logo img{
-    margin-top: 2vw;
-    width: 70px;
-    height: 70px;
-    background-position: center;
-    object-position: center;
-}   
-}
-
-
-#nav .resume-btn{
+#nav .resume-btn {
     top: 1vmax;
     right: 2vmax;
     margin-top: 3px;
@@ -131,13 +133,16 @@ html,body{
     z-index: 999;
     cursor: pointer;
     transition: 0.5s all;
+    font-weight: 800;
+    color: white;
 }
 
-#nav .resume-btn:hover{
+#nav .resume-btn:hover {
+    
     background: none;
 }
 
-#nav .resume-btn a{
+#nav .resume-btn a {
     text-decoration: none;
     /* color: white; */
     font-family: gilroyb;
@@ -146,11 +151,11 @@ html,body{
 }
 
 
-#nav .resume-btn-prt{
+#nav .resume-btn-prt {
     display: none;
 }
 
-#nav .resume-btn-prt{
+#nav .resume-btn-prt {
     top: 1vmax;
     right: 2vmax;
     margin-top: 3px;
@@ -167,25 +172,26 @@ html,body{
     justify-content: center;
     z-index: 999;
     cursor: pointer;
-    transition: 0.5s all;  
+    transition: 0.5s all;
 }
 
 
-#nav .resume-btn-prt a{
+#nav .resume-btn-prt a {
     text-decoration: none;
     /* color: white; */
     font-family: gilroyb;
     font-size: 2.0vmax;
 }
-#main{
+
+#main {
     /* background-color:#111; */
     background-color: black;
-    position:relative;
+    position: relative;
 }
 
-                        /*Page1 code */
+/*Page1 code */
 
-#page1{
+#page1 {
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -194,25 +200,25 @@ html,body{
     position: relative;
     flex-direction: column;
     z-index: 99;
-}      
+}
 
-#page1 h1{
+#page1 h1 {
     margin-bottom: 2.3%;
     font-size: 8.5vh;
     font-family: gilroy;
 }
 
-#img-div{
+#img-div {
     height: 67vmin;
     width: 70vmax;
     overflow: hidden;
 }
 
-#img-div img{
-        object-fit: cover;
-        object-position: center;
-        height: 109%;
-        width: 100%;
+#img-div img {
+    object-fit: cover;
+    object-position: center;
+    height: 109%;
+    width: 100%;
 }
 
 
@@ -221,35 +227,35 @@ html,body{
 
 /*------------------------   PAGE 2  -----------------------*/
 
-#page2{
+#page2 {
     width: 100%;
     min-height: 100vh;
     position: relative;
     padding-top: 10vh;
 }
 
-#page2 #name-div{
+#page2 #name-div {
     width: 100%;
     white-space: nowrap;
     position: relative;
     overflow-y: hidden;
     overflow-x: auto;
     margin-bottom: 13vh;
-    
+
 }
 
-#name-div h1{
+#name-div h1 {
     font-size: 8vw;
     display: inline-block;
     margin-right: 2vw;
-    font-family: gilroy;    
+    font-family: gilroy;
 }
 
-#name-div::-webkit-scrollbar{
+#name-div::-webkit-scrollbar {
     display: none;
 }
 
-#page2 #intro-div{
+#page2 #intro-div {
     width: 80%;
     text-align: center;
     padding-top: 4vh;
@@ -259,7 +265,7 @@ html,body{
     margin-right: auto;
 }
 
-#intro-div h1{
+#intro-div h1 {
     font-size: 4.4vw;
     word-spacing: 0.2vw;
     letter-spacing: 0.01vw;
@@ -268,16 +274,17 @@ html,body{
     font-weight: 1000;
 }
 
-#intro-div h1 .front{
+#intro-div h1 .front {
     color: rgb(219, 65, 65);
     font-family: gilroy;
 }
 
 
-#intro-div h1 a{
+#intro-div h1 a {
     text-decoration: underline;
 }
-#into-div #prof{
+
+#into-div #prof {
     width: 40%;
     height: 80px;
     margin-top: 2vmax;
@@ -285,29 +292,30 @@ html,body{
     margin-right: auto;
     display: flex;
     align-items: center;
-    justify-content:center;
- 
+    justify-content: center;
+
 }
 
-#prof a{
+#prof a {
     color: #111;
-}   
+}
 
-#intro-div a img{
+#intro-div a img {
     height: 6.8vmax;
     /* background-color: blue; */
 }
 
 /*--------------------- PAGE 2 RESPONSIVE CODE ------------------------*/
 
-@media (max-width:600px){
-    #page2{
+@media (max-width:600px) {
+    #page2 {
         width: 100%;
         min-height: 100vh;
         position: relative;
         padding-top: 10vh;
     }
-    #page2 #name-div{
+
+    #page2 #name-div {
         width: 100%;
         white-space: nowrap;
         position: relative;
@@ -316,15 +324,18 @@ html,body{
         margin-bottom: 13vh;
         margin-top: -5vh;
     }
-    #page2 #name-div h1{
+
+    #page2 #name-div h1 {
         font-size: 14.8vw;
         display: inline-block;
         margin-right: 2vw;
     }
-    #name-div::-webkit-scrollbar{
+
+    #name-div::-webkit-scrollbar {
         display: none;
     }
-    #page2 #intro-div{
+
+    #page2 #intro-div {
         width: 90%;
         text-align: center;
         padding-top: 4vh;
@@ -333,17 +344,18 @@ html,body{
         margin-left: auto;
         margin-right: auto;
         margin-top: -11vh;
-        
+
     }
-    #intro-div h1{
+
+    #intro-div h1 {
         font-size: 8.5vw;
         word-spacing: 0.5vw;
         letter-spacing: 0.01vw;
         line-height: 10.3vw;
-            
+
     }
 
-    #into-div #prof{
+    #into-div #prof {
         width: 40%;
         height: 90px;
         margin-top: 2vmax;
@@ -351,29 +363,29 @@ html,body{
         margin-right: auto;
         display: flex;
         align-items: center;
-        justify-content:center;
-     /* background-color: blue; */
-     
+        justify-content: center;
+        /* background-color: blue; */
+
     }
-    
-    #prof a{
+
+    #prof a {
         /* width: 30vw; */
         margin-bottom: -5vh;
         color: #111;
         /* margin-bottom: -6vh; */
         /* background-color: blue; */
-    }   
-    
-    #intro-div a img{
+    }
+
+    #intro-div a img {
         scale: 1.1;
         height: 9.0vmax;
         margin-top: 4vh;
     }
-    
+
 }
 
 
-#page3{
+#page3 {
     width: 100%;
     min-height: 100vh;
     background-color: black;
@@ -387,16 +399,16 @@ html,body{
     font-family: gilroy;
     font-weight: 800;
     margin-bottom: 0vmax;
-    
+
 }
 
-#page3 h1 span{
+#page3 h1 span {
     font-family: gilroy;
     font-weight: 800;
     color: #38cdfa;
 }
 
-#page3 h3{
+#page3 h3 {
     font-size: 2.2vw;
     font-family: gilroy;
     margin-bottom: 1.4vmax;
@@ -404,7 +416,7 @@ html,body{
 
 
 
- .box h4{
+.box h4 {
     font-size: 2vmax;
     border: 2px solid white;
     border-radius: 7px;
@@ -417,7 +429,7 @@ html,body{
     display: inline-block;
 }
 
-.box img{
+.box img {
     height: 5vmax;
     margin-right: 10px;
     background-color: #fff;
@@ -426,19 +438,19 @@ html,body{
     border-radius: 8px;
 }
 
-.dev-box img{
+.dev-box img {
     height: 6vmax;
     margin-right: 0.8vmax;
 }
 
-.dvv-box img{
+.dvv-box img {
     /* background-color: red; */
     height: 6vmax;
     margin-right: 1.3vmax;
 }
 
 /*-------------------page4--------------*/
-#page4{
+#page4 {
     min-height: 100vh;
     width: 100%;
     background-color: #114;
@@ -446,23 +458,23 @@ html,body{
     position: relative;
 }
 
-#page4 h2{
+#page4 h2 {
     font-size: 3.7vw;
     font-family: gilroy;
     font-weight: 600;
 }
 
-#page4 h2 span{
+#page4 h2 span {
     font-family: gilroy;
     color: #FC626A;
 }
 
-#page4 h4{
-    font-size:1.9vw;
+#page4 h4 {
+    font-size: 1.9vw;
     font-family: gilroy;
 }
 
-#page4 #work-sample{
+#page4 #work-sample {
     background-color: #fff;
     height: 76vh;
     margin-bottom: 4vmax;
@@ -475,23 +487,23 @@ html,body{
     border-radius: 10px;
 }
 
-#page4 #work-sample img{
-    box-shadow: 1px 7px 20px solid rgb(0,0,0,0.4);
+#page4 #work-sample img {
+    box-shadow: 1px 7px 20px solid rgb(0, 0, 0, 0.4);
     height: 13vmax;
 }
 
-#page4>a{
+#page4>a {
     display: block;
     text-align: right;
     margin-bottom: 3vmax;
     padding: 0 1vw;
 }
 
-#page4>a img{
+#page4>a img {
     height: 4.5vmax;
 }
 
-#page5{
+#page5 {
     min-height: 100vh;
     width: 100%;
     background-color: #222;
@@ -499,7 +511,7 @@ html,body{
     position: relative;
 }
 
-#page5 h1{
+#page5 h1 {
     font-size: 4.6vmax;
     font-weight: 700;
     font-family: gilroy;
@@ -507,12 +519,12 @@ html,body{
     margin-bottom: 3.5vmax;
 }
 
-#page5 h1 span{
+#page5 h1 span {
     font-family: gilroy;
     color: #F6BA53;
 }
 
-#artworks a{
+#artworks a {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -524,20 +536,20 @@ html,body{
     text-decoration: none;
 }
 
-#artworks a:nth-last-chile(1){
-    border-bottom:2px solid #fff;
+#artworks a:nth-last-chile(1) {
+    border-bottom: 2px solid #fff;
     margin-bottom: 5vmax;
 }
 
-#artworks a h4{
+#artworks a h4 {
     font-size: 1.7vmax;
     position: relative;
     z-index: 99;
-    transition:color ease-in 0.4s;
+    transition: color ease-in 0.4s;
     width: 12%;
 }
 
-#artworks a h5{
+#artworks a h5 {
     font-size: 1.8vmax;
     font-weight: 600;
     font-family: gilroy;
@@ -547,49 +559,49 @@ html,body{
     z-index: 99;
 }
 
-#artworks a h6{
+#artworks a h6 {
     font-size: 1.6vmax;
     width: 30%;
     text-align: right;
     position: relative;
     z-index: 99;
-    transition:color ease-in 0.4s;
+    transition: color ease-in 0.4s;
     font-family: gilroy;
 }
 
-#sliding-div{
+#sliding-div {
     position: absolute;
     left: 0;
     top: 0;
     height: 0%;
     z-index: 9;
     width: 100%;
-    transition: height cubic-bezier(0.19,1,0.22,1) 1.3s;  
+    transition: height cubic-bezier(0.19, 1, 0.22, 1) 1.3s;
     background-color: #fff;
 }
 
-#artworks a:hover #sliding-div{
+#artworks a:hover #sliding-div {
     height: 100%;
 }
 
-#artworks a:hover h4{
+#artworks a:hover h4 {
     color: #222;
 }
 
-#artworks a:hover h5{
+#artworks a:hover h5 {
     color: #222;
 }
 
-#artworks a:hover h6{
+#artworks a:hover h6 {
     color: #222;
 }
 
 /*---------------PAGE6---------*/
-.page6{
+.page6 {
     width: 100%;
     height: 100vh;
     padding: 0 2vmax;
-    margin-top:0vh;
+    margin-top: 0vh;
     background-color: #393939;
     color: #fff;
     display: flex;
@@ -598,20 +610,20 @@ html,body{
     justify-content: flex-end;
 }
 
-.page6>h1{
+.page6>h1 {
     font: 700 9vmax "gilroy";
     font-weight: 900;
 }
 
-.page6 h1 a{
+.page6 h1 a {
     text-decoration: none;
 }
 
-.page6 .mail{
+.page6 .mail {
     color: #FC626A;
 }
 
-h1 span a{
+h1 span a {
     font-family: gilroy;
 }
 
@@ -619,22 +631,22 @@ h1 span a{
 
 
 
-.page6 .instagram{
+.page6 .instagram {
     color: #F6BA53;
 }
 
 
-.page6 .linkdin{
+.page6 .linkdin {
     color: #51CDE7;
 }
 
 
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:2vmax 0;
+    padding: 2vmax 0;
     font-family: gilroy;
     font-weight: 600;
     font-size: 1.5vmax;
@@ -646,7 +658,7 @@ a {
     transition: .5s all;
 }
 
-.page6 a:hover{
+.page6 a:hover {
     text-decoration: line-through;
 }
 
@@ -654,4 +666,69 @@ a {
 
 
 
+/* Make sure nav stays fixed and full-width */
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #000;
+}
 
+/* Wrapper for the resume page content */
+.Resume_Div {
+    margin-top: 50px;
+    /* space for navbar (adjust based on nav height) */
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 40px;
+    box-sizing: border-box;
+}
+
+/* Title section */
+#resume_title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#resume_title h1 {
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 3rem);
+    /* responsive font size */
+
+}
+
+/* Container around the iframe */
+.resume_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* The iframe itself (resume viewer) */
+.resume_container iframe {
+    width: 100%;
+    max-width: 800px;
+    /* don't let it grow too huge on big screens */
+    height: 110vh;
+    /* responsive height based on viewport */
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+}
+
+.back {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.back h1 {
+    color: #fc3b45;
+}
