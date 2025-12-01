@@ -1,0 +1,65 @@
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #000;
+}
+
+/* Wrapper for the resume page content */
+.Resume_Div {
+    margin-top: 50px;
+    /* space for navbar (adjust based on nav height) */
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 40px;
+    box-sizing: border-box;
+}
+
+/* Title section */
+#resume_title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#resume_title h1 {
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 3rem);
+    /* responsive font size */
+
+}
+
+/* Container around the iframe */
+.resume_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* The iframe itself (resume viewer) */
+.resume_container iframe {
+    width: 100%;
+    max-width: 800px;
+    /* don't let it grow too huge on big screens */
+    height: 110vh;
+    /* responsive height based on viewport */
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+}
+
+.back {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.back h1 {
+    color: #fc3b45;
+}
